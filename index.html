@@ -1,164 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>South Carolina/Georgia State RolePlay [NOT OPEN RN] </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" type="image/png" href="imgs/logo.png"/>
-    <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VVS Shop • FiveM Mods, Chains, Clothing</title>
+    <meta name="description"
+        content="VVS Shop — Premium FiveM custom weapons, VVS-style chains, and clothing. Optimized, high-quality assets for your server." />
+    <link rel="icon" type="image/png" href="imgs/vvsv2shop.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand">
-                    <img src="imgs/logo.png" alt="Logo">
-                    <span class="text-[#C02942]">South Carolina/Georgia State RolePlay [NOT OPEN RN] </span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="fivem://connect/cfx.re/join/67em98">Join Server</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://discord.gg/qEzBprMVsa">Discord</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Community</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#owners">Owners</a></li>
-                            </ul>
-                        </li>
+    <header class="site-header" id="top">
+        <div class="container nav-row">
+            <a class="brand" href="#home" aria-label="VVS Shop home">
+                <img src="imgs/vvsv2shop.png" alt="VVS Shop logo" class="brand-logo" />
+                <span class="brand-name">VVS Shop</span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="site-nav" data-collapsible>
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link" href="#offerings">Shop</a>
+                <a class="nav-link" href="#partners">Partners</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1>
+                        VVS Shop
+                        <span class="sparkle" aria-hidden>✦</span>
+                    </h1>
+                    <p class="lead">
+                        Premium FiveM creations: custom weapons and clothing.
+                        Built clean, optimized, and ready for your server.
+                    </p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="#offerings">Browse offerings</a>
+                    </div>
+                    <ul class="trust-list">
+                        <li>Optimized meshes & textures</li>
+                        <li>LODs + proper weights</li>
+                        <li>Server‑friendly performance</li>
                     </ul>
                 </div>
+                <div class="hero-art">
+                    <img src="imgs/vvsv2shop.png" alt="VVS Shop emblem" class="hero-logo" />
+                </div>
             </div>
-        </nav>
+        </section>
 
-    <div class="info-section" id="sobrenos">
-        <h1>About Us!</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>Community <img src="imgs/community.png" width="40px" style="margin-left: 10px;"></h2>
-                        <p>Community is where players come together to experience immersive roleplay, form connections, and create unforgettable memories. Our focus is on inclusivity, creativity, and fostering a supportive environment for everyone.</p>
-                        <!-- <div id="space"></div> -->
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>Commitment <img src="imgs/commitment.png" width="25px" style="margin-left: 10px;"></h2>
-                        <p>is dedicated to delivering an exceptional roleplay experience. We are committed to ensuring a balanced, fun, and engaging world where every player can thrive. Your feedback and satisfaction are our priorities.</p>
-                        <div id="space2"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>SCGS V2 Is Coming Soon <img src="imgs/logo.png" width="25px" style="margin-left: 10px;"></h2>
-                        <p>with exciting new features, enhanced systems, and opportunities for unique adventures. Stay tuned for updates and get ready for the next level of roleplay!</p>
-                        <div id="space3"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-            
-    <div class="info-section" id="sobrenos">
-        <h1>Our Partnerships!</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>Paid ads <img src="imgs/partnership.png" width="40px" style="margin-left: 10px;"></h2>
-                        <p>. </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>Shops <img src="imgs/partnership.png" width="25px" style="margin-left: 10px;"></h2>
-                        <p>. </p>
-                        <div id="space2"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>Our ads <img src="imgs/partnership.png" width="25px" style="margin-left: 10px;"></h2>
-                        <p>. </p>
-                        <div id="space3"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h2>Hunnaz Kustomz [NOT OPEN RN]<img src="imgs/Hunnaz_Kustomz.png" width="25px" style="margin-left: 10px;"></h2>
-                        <p>if you want a custom or a prebuilt discord.gg/CEQyc8pjAt!</p>
-                        <div id="space4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <section id="offerings" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <h2>What we build</h2>
+                    <p class="muted">Choose your lane—each asset is handcrafted and tuned for FiveM.</p>
+                </header>
 
-    <div class="ownerss-section" id="owners">
-        <div class="container">
-            <h1>Owners</h1>
-            <div class="row" >
-                <div class="col-md-4">
-                    <div class="owners-box">
-                        <img src="imgs/vvs.png" alt="owners 1">
-                        <div class="owners-info">
-                            <h2>Vvs</h2>
-                            <p> Owner </p>
+                <div class="grid cards">
+                    <article class="card">
+                        <div class="card-icon" aria-hidden>
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M11 2h2v4h-2zM11 18h2v4h-2zM2 11h4v2H2zM18 11h4v2h-4z" />
+                                <path d="M12 6a6 6 0 1 1 0 12A6 6 0 0 1 12 6m0-2a8 8 0 1 0 0 16 8 8 0 0 0 0-16z" />
+                            </svg>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="owners-box">
-                        <img src="imgs/vivix.png" alt="owners 2">
-                        <div class="owners-info">
-                            <h2>Vivix</h2>
-                            <p> Owner </p>
-                            <div id="space2"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="owners-box">
-                        <img src="imgs/vvs.png" alt="owners 3">
-                        <div class="owners-info">
-                            <h2>Vvs</h2>
-                            <p> Developer </p>
-                            <div id="space3"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                        <h3>Custom Weapons</h3>
+                        <p>.</p>
+                        <ul>
+                            <li>Rigged + attachments</li>
+                            <!-- <li>Multiple skins</li> -->
+                            <li>Balanced file sizes</li>
+                        </ul>
 
-    <footer>
-        <div class="container">
-         <div class="row">
-            <div class="col-md-6">
-                <p>2025 All rights reserved.</p>
-                <p>SCGS V2</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden>
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M16 3 12 5 8 3 5 6v4h2v11h10V10h2V6l-3-3z" />
+                            </svg>
+                        </div>
+                        <h3>Clothing</h3>
+                        <p>.</p>
+                        <ul>
+                            <li>M/F compatible</li>
+                            <!-- <li>LOD support</li>
+                            <li>Low draw calls</li> -->
+                        </ul>
+
+                    </article>
+                </div>
             </div>
-            <div class="col-md-6">
-                <p>Developed by Vvs</p>
-                <p>Developed by Vivix</p>
+        </section>
+
+        <section id="partners" class="section alt">
+            <div class="container">
+                <header class="section-head">
+                    <h2>Partners</h2>
+                    <p class="muted">We collaborate with servers, communities, and creators.</p>
+                </header>
+
+                <div class="grid partners">
+                    <a class="partner-tile" href="https://discord.gg/downsouthrp" target="_blank" rel="noopener">🌴 Down South RP</a>
+                    <a class="partner-tile" href="https://discord.gg/bmBSQVrKme" target="_blank" rel="noopener">💎 South Side Customs</a>
+                    <a class="partner-tile" href="https://discord.gg/cDmwWHae6Z" target="_blank" rel="noopener">💥 Red Rocks RP</a>
+                    <div class="partner-tile">Your logo here</div>
+                </div>
+
+                <div class="card mt-lg partner-feature" id="dsrp">
+                    <h3 id="dsrp-title">🌴 Down South Roleplay 🌴</h3>
+                    <p>Welcome to Down South RP, a vMenu-based FiveM server built for the real ones who love the southern lifestyle! 🤠</p>
+                    <ul>
+                        <li>🚙 Lifted, squatted, and fully customized vehicles</li>
+                        <li>🏍️ Motorcycle clubs & gang life</li>
+                        <li>🌾 Realistic jobs – from welding to drug running</li>
+                        <li>🏁 Unique drag and motorsport racing experiences</li>
+                        <li>🌲 Off-roading, mudding, fishing, and so much more!</li>
+                    </ul>
+                    <p>💬 Whether you’re chasing that real-life southern vibe or building your own story on the streets — Down South RP has it all.</p>
+                    <p>🗺️ Join us today and experience hundreds of things to do across a one-of-a-kind map. 👥 Build your crew, find your hustle, and make your mark Down South!</p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="https://discord.gg/downsouthrp" target="_blank" rel="noopener">Join the Discord</a>
+                    </div>
+                </div>
+
+                <div class="card mt-lg partner-feature" id="fivem-drip">
+                    <h3>💎🔥 Join the #1 Chain & Clothing Discord for FiveM! 🔥💎</h3>
+                    <p>🚀 Looking to flex in FiveM with the cleanest chains & custom clothing? Want exclusive drip that no one else has? We’ve got you covered!</p>
+                    <p>Our FiveM Chain & Clothing Discord is the ultimate hub for high‑quality chains, fire custom clothing, trusted sellers, and an active community that helps you stand out in the city.</p>
+
+                    <p>🔥 What We Offer:</p>
+                    <ul>
+                        <li>✅ Custom & pre‑made chains — get unique designs or pick from our premium selection</li>
+                        <li>✅ Exclusive custom clothing — hoodies, tees, jerseys, jeans & more</li>
+                        <li>✅ Verified & trusted sellers — legit transactions, no scams</li>
+                        <li>✅ Fast & secure service — quick, hassle‑free delivery</li>
+                        <li>✅ Giveaways & special deals — win free chains, outfits & discounts</li>
+                        <li>✅ 24/7 support & active community</li>
+                    </ul>
+
+                    <p>✨ Whether you're a solo player or a crew boss, having the right drip makes all the difference. Show off your style, rep your gang, and flex in the city like never before!</p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="https://discord.gg/bmBSQVrKme" target="_blank" rel="noopener">Join the Discord</a>
+                    </div>
+                </div>
+                
+                <div class="card mt-lg partner-feature" id="rrrp">
+                    <h3>💥 Join Red Rocks Roleplay Today 💥</h3>
+                    <p>We have revamped into a Qbox serious roleplay server.</p>
+
+                    <p><strong>We’re looking for:</strong></p>
+                    <ul>
+                        <li>🚓 San Andreas State Police</li>
+                        <li>🔥 Fire/EMS 🚒</li>
+                        <li>⚒️ D.O.T.</li>
+                    </ul>
+                    
+                    <p>🔥 Server Features 🔥</p>
+                    <ul>
+                        <li>✅ Weekly events</li>
+                        <li>✅ Various custom MLOs</li>
+                        <li>✅ Multiple jobs to make and earn your money</li>
+                        <li>✅ Motorcycle clubs, gangs, and mob families</li>
+                        <li>✅ Red zones for 1v1s</li>
+                        <li>✅ Mud park and race tracks</li>
+                        <li>✅ Golfing, bowling, casino, gun crafting, drug making</li>
+                        <li>✅ Dealerships & garages</li>
+                        <li>✅ Lots of custom scripts and resources to choose from</li>
+                    </ul>
+
+                    <p>Please join us! We’re welcoming new players and a whole new framework for Red Rocks. We’ve switched to the Qbox framework, added new resources, and are focused on a strict, serious RP experience. Come join Red Rocks today.</p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="https://discord.gg/cDmwWHae6Z" target="_blank" rel="noopener">Join the Discord</a>
+                    </div>
+                </div>
+
             </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container foot-row">
+            <div class="foot-brand">
+                <img src="imgs/vvsv2shop.png" alt="VVS Shop" />
+                <span>VVS Shop</span>
+            </div>
+            <small class="muted">© <span id="year"></span> VVS Shop. Not affiliated with Rockstar Games. FiveM assets
+                only.</small>
         </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </footer>
 </body>
+
 </html>
