@@ -4,15 +4,26 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VVS Shop • FiveM Mods, Weapons, Clothing</title>
+    <title>VVS Shop • FiveM Assets for Weapons and Clothing</title>
     <meta name="description"
-        content="VVS Shop — Premium FiveM custom weapons, and clothing. Optimized, high-quality assets for your server." />
+        content="VVS Shop builds premium FiveM weapons and clothing with clean performance and sharp detail." />
     <link rel="icon" type="image/png" href="imgs/vvsv2shop.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
 </head>
 
 <body>
+    <div class="page-bg" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="grid-lines"></span>
+    </div>
+
     <header class="site-header" id="top">
         <div class="container nav-row">
             <a class="brand" href="#home" aria-label="VVS Shop home">
@@ -26,7 +37,7 @@
 
             <nav class="site-nav" data-collapsible>
                 <a class="nav-link active" href="#home">Home</a>
-                <a class="nav-link" href="#offerings">Shop</a>
+                <a class="nav-link" href="#offerings">Offerings</a>
                 <a class="nav-link" href="#partners">Partners</a>
             </nav>
         </div>
@@ -36,25 +47,34 @@
         <section id="home" class="section hero">
             <div class="container hero-inner">
                 <div class="hero-copy">
-                    <h1>
-                        VVS Shop
-                        <span class="sparkle" aria-hidden>✦</span>
-                    </h1>
+                    <span class="hero-eyebrow"><span></span>Vvs Asset</span>
+                    <h1>VVS Shop</h1>
                     <p class="lead">
-                        Premium FiveM creations: custom weapons and clothing.
-                        Built clean, optimized, and ready for your server.
+                        Premium weapons and clothing for FiveM servers.
+                        Built clean, tuned for performance, and ready to drop in.
                     </p>
                     <div class="cta-row">
                         <a class="btn btn-primary" href="#offerings">Browse offerings</a>
+                        <a class="btn btn-ghost" href="#partners">Partner with us</a>
                     </div>
-                    <ul class="trust-list">
-                        <li>Optimized meshes & textures</li>
-                        <li>LODs + proper weights</li>
-                        <li>Server‑friendly performance</li>
+                    <ul class="badge-list">
+                        <li>Optimized meshes</li>
+                        <li>Clean textures</li>
+                        <li>Server friendly performance</li>
                     </ul>
                 </div>
-                <div class="hero-art">
+                <div class="hero-panel">
                     <img src="imgs/vvsv2shop.png" alt="VVS Shop emblem" class="hero-logo" />
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <strong>Weapons</strong>
+                            <span class="muted">Optimized and balanced</span>
+                        </div>
+                        <div class="hero-stat">
+                            <strong>Clothing</strong>
+                            <span class="muted">Male and female ready</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -63,7 +83,7 @@
             <div class="container">
                 <header class="section-head">
                     <h2>What we build</h2>
-                    <p class="muted">Choose your lane—each asset is handcrafted and tuned for FiveM.</p>
+                    <p class="muted">Two focused lines, crafted for detail and stability.</p>
                 </header>
 
                 <div class="grid cards">
@@ -75,11 +95,11 @@
                             </svg>
                         </div>
                         <h3>Custom Weapons</h3>
-                        <p>.</p>
+                        <p>Clean rigs, balanced file sizes, and reliable in-game behavior.</p>
                         <ul>
-                            <li>Rigged + attachments</li>
-                            <!-- <li>Multiple skins</li> -->
-                            <li>Balanced file sizes</li>
+                            <li>attachments</li>
+                            <li>Optimized</li>
+                            <li>Consistent handling</li>
                         </ul>
 
                     </article>
@@ -91,11 +111,9 @@
                             </svg>
                         </div>
                         <h3>Clothing</h3>
-                        <p>.</p>
+                        <p>Detailed fits with stable weights and compatibility in mind.</p>
                         <ul>
-                            <li>M/F compatible</li>
-                            <!-- <li>LOD support</li>
-                            <li>Low draw calls</li> -->
+                            <li>Male and female ready</li>
                         </ul>
 
                     </article>
@@ -111,67 +129,44 @@
                 </header>
 
                 <div class="grid partners">
-                    <a class="partner-tile" href="https://discord.gg/downsouthrp" target="_blank" rel="noopener">🌴 Down South RP</a>
-                    <a class="partner-tile" href="https://discord.gg/bmBSQVrKme" target="_blank" rel="noopener">💎 South Side Customs</a>
-                    <a class="partner-tile" href="https://discord.com/idontsmokerp" target="_blank" rel="noopener">🌵 I Don't Smoke RP</a>
+                    <a class="partner-tile" href="https://discord.gg/downsouthrp" target="_blank" rel="noopener">
+                        <strong>Down South RP</strong>
+                        <span>discord.gg/downsouthrp</span>
+                    </a>
+                    <a class="partner-tile" href="https://discord.com/idontsmokerp" target="_blank" rel="noopener">
+                        <strong>I Don't Smoke RP</strong>
+                        <span>discord.com/idontsmokerp</span>
+                    </a>
                 </div>
 
-                <div class="card mt-lg partner-feature" id="dsrp">
-                    <h3 id="dsrp-title">🌴 Down South Roleplay 🌴</h3>
-                    <p>Welcome to Down South RP, a vMenu-based FiveM server built for the real ones who love the southern lifestyle! 🤠</p>
-                    <ul>
-                        <li>🚙 Lifted, squatted, and fully customized vehicles</li>
-                        <li>🏍️ Motorcycle clubs & gang life</li>
-                        <li>🌾 Realistic jobs – from welding to drug running</li>
-                        <li>🏁 Unique drag and motorsport racing experiences</li>
-                        <li>🌲 Off-roading, mudding, fishing, and so much more!</li>
-                    </ul>
-                    <p>💬 Whether you’re chasing that real-life southern vibe or building your own story on the streets — Down South RP has it all.</p>
-                    <p>🗺️ Join us today and experience hundreds of things to do across a one-of-a-kind map. 👥 Build your crew, find your hustle, and make your mark Down South!</p>
-                    <div class="cta-row">
-                        <a class="btn btn-primary" href="https://discord.gg/downsouthrp" target="_blank" rel="noopener">Join the Discord</a>
-                    </div>
-                </div>
+                <div class="feature-grid mt-lg">
+                    <article class="feature-card" id="dsrp">
+                        <h3 id="dsrp-title">Down South Roleplay</h3>
+                        <p>Southern lifestyle roleplay with custom vehicles, clubs, and a wide range of jobs.</p>
+                        <ul>
+                            <li>Custom builds for street, off-road, and mudding</li>
+                            <li>MC and gang storylines</li>
+                            <li>Drag racing and motorsport events</li>
+                        </ul>
+                        <div class="cta-row">
+                            <a class="btn btn-primary" href="https://discord.gg/downsouthrp" target="_blank"
+                                rel="noopener">Join the Discord</a>
+                        </div>
+                    </article>
 
-                <div class="card mt-lg partner-feature" id="fivem-drip">
-                    <h3>💎🔥 Join the #1 Chain & Clothing Discord for FiveM! 🔥💎</h3>
-                    <p>🚀 Looking to flex in FiveM with the cleanest chains & custom clothing? Want exclusive drip that no one else has? We’ve got you covered!</p>
-                    <p>Our FiveM Chain & Clothing Discord is the ultimate hub for high‑quality chains, fire custom clothing, trusted sellers, and an active community that helps you stand out in the city.</p>
-
-                    <p>🔥 What We Offer:</p>
-                    <ul>
-                        <li>✅ Custom & pre‑made chains — get unique designs or pick from our premium selection</li>
-                        <li>✅ Exclusive custom clothing — hoodies, tees, jerseys, jeans & more</li>
-                        <li>✅ Verified & trusted sellers — legit transactions, no scams</li>
-                        <li>✅ Fast & secure service — quick, hassle‑free delivery</li>
-                        <li>✅ Giveaways & special deals — win free chains, outfits & discounts</li>
-                        <li>✅ 24/7 support & active community</li>
-                    </ul>
-
-                    <p>✨ Whether you're a solo player or a crew boss, having the right drip makes all the difference. Show off your style, rep your gang, and flex in the city like never before!</p>
-                    <div class="cta-row">
-                        <a class="btn btn-primary" href="https://discord.gg/bmBSQVrKme" target="_blank" rel="noopener">Join the Discord</a>
-                    </div>
-                </div>
-
-                <div class="card mt-lg partner-feature" id="idontsmokerp">
-                    <h3>🌵 I Don't Smoke RP 🌵</h3>
-                    <p>Mexico Border Roleplaying</p>
-                    <p>Mexico/Arizona/Colombia</p>
-                    <ul>
-                        <li>Pemex y Brechas (original)</li>
-                        <li>Frontera w/Border Patrol/Marina/LSPD/SWAT</li>
-                        <li>Blindadas,Ranchos,VipGuns,Cascos,Chalecos</li>
-                        <li>Custom Cartel/Coyote/Pollero/Drug Scripts</li>
-                        <li>Dunas Y Rutas Y Favelas Y Racetracks</li>
-                        <li>Starter Pack Y Female Starter Pack</li>
-                        <li>Drag/Street/Drifting/Dune Racing</li>
-                        <li>Eventos Y Privadas Con Grupo</li>
-                        <li>Custom Jobs For Civs y Buchonas</li>
-                    </ul>
-                    <div class="cta-row">
-                        <a class="btn btn-primary" href="https://discord.com/invite/idontsmokerp" target="_blank" rel="noopener">Join the Discord</a>
-                    </div>
+                    <article class="feature-card" id="idontsmokerp">
+                        <h3>I Don't Smoke RP</h3>
+                        <p>Border roleplay with custom map zones, cartel storylines, and racing.</p>
+                        <ul>
+                            <li>Original Pemex, Brechas, and border patrol zones</li>
+                            <li>Custom cartel scripts and job paths</li>
+                            <li>Street, drag, and dune racing</li>
+                        </ul>
+                        <div class="cta-row">
+                            <a class="btn btn-primary" href="https://discord.com/invite/idontsmokerp" target="_blank"
+                                rel="noopener">Join the Discord</a>
+                        </div>
+                    </article>
                 </div>
 
             </div>
